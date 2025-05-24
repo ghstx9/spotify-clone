@@ -1,16 +1,113 @@
 ---
-
+// Indie.astro
+import 'styles/styles.css';
 ---
-
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h4>Spotify</h4>
+    <nav class="button-container">
+      <a href="/" class="button2">Indie</a>
+      <a href="/EDM" class="button">EDM</a>
+      <a href="/Pop" class="button">Pop</a>
+      <a href="/Rap" class="button">Rap</a>
+    </nav>
+    <h3>Indie</h3>
+    <table class="music-table">
+      <tr style="text-align: center; color: #333333;">
+        <th>Cover</th>
+        <th>Play</th>
+        <th>Judul</th>
+        <th>Artis</th>
+        <th>Download</th>
+      </tr>
+      
+	  <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/DLZ.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/DLZ.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>DLZ</td>
+                <td>TV On The Radio</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=18Vjdk888-Y6tU291z1fKIt-5R3h9981z&export=download&authuser=1&confirm=t&uuid=f1857065-77a9-4021-bd27-7feacae09b85&at=AIrpjvM0KfSEtUcGPgkszWVuha7v:1739972612916" download="DLZ.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/TakeASlice.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/TakeASlice.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Take A Slice</td>
+                <td>Glass Animals</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=11v66UnohZRXa06GyD02s4EERIWiONINb&export=download&authuser=1&confirm=t&uuid=fea4d325-9f52-4ae6-859c-ba807481d71e&at=AIrpjvPQ5QmXm9rJW-kYdcPjlolX:1739972700009" download="TakeASlice.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/SweatherWeather.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/SweatherWeather.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Sweather Weather</td>
+                <td>The Neighborhood</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1aWpXF0gKS4l4VxLHhHf9ClSOmR9ytk08&export=download&authuser=1&confirm=t&uuid=b414054e-3250-4dff-8d2c-9e838abd8bc7&at=AIrpjvMblr8gC-5hAO9QFq_zaG0l:1739973718706" download="SweatherWeather.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/TakeMeToChurch.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/TakeMeToChurch.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Take Me To Church</td>
+                <td>Hozier</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1ATs2o8COIywW2tgZXXsWWn6mf0lcCfut&export=download&authuser=1&confirm=t&uuid=32e0cf73-66bd-40ad-b253-8cd65e6bf407&at=AEz70l4WS_sEbZOkzilHq7OgZyEg:1740010418890" download="TakeMeToChurch.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/LittleDarkAge.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/LittleDarkAge.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Little Dark Age</td>
+                <td>MGMT</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1bX9VeU0R7AqXewn6Wm85IYI6Fomp-VGv&export=download&authuser=1&confirm=t&uuid=10d890c5-aa62-445f-935e-4dc3a5fef7c3&at=AEz70l6NZdTYzH1QXtYAOGc5rz7S:1740010791032" download="LittleDarkAge.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+    </table>
+  </body>
 </html>

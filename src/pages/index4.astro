@@ -1,0 +1,111 @@
+---
+// Rap.astro
+import 'styles/styles.css';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h4>Spotify</h4>
+    <nav class="button-container">
+      <a href="/" class="button">Indie</a>
+      <a href="/EDM" class="button">EDM</a>
+      <a href="/Pop" class="button">Pop</a>
+      <a href="/Rap" class="button2">Rap</a>
+    </nav>
+    <h3>Rap</h3>
+    <table class="music-table">
+      <tr style="text-align: center; color: #333333;">
+        <th>Cover</th>
+        <th>Play</th>
+        <th>Judul</th>
+        <th>Artis</th>
+        <th>Download</th>
+      </tr>
+
+      <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Humble.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Humble.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Humble</td>
+                <td>Kendrick Lamar</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1FhPVontLGLgpBYF0RdGWwx7vHNB7vYii&export=download&authuser=1&confirm=t&uuid=5b4638dd-6dc0-452e-a7db-de9d84f93f03&at=AEz70l4xX8_ZHObpgsNCKd4gVNxH:1740023960165" download="Humble.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Mockingbird.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Mockingbird.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Mockingbird</td>
+                <td>Eminem</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1Vwl9Jetet9_FX7EwWMZ3_cZeVWIIMAUE&export=download&authuser=1&confirm=t&uuid=9b406881-12a1-4f97-9aa2-71e0125cd2eb&at=AEz70l41pBbUokZsJoQnN5b7_Aoq:1740024654302" download="Mockingbird.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/NoRoleModelz.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/NoRoleModelz.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>No Role Modelz</td>
+                <td>J.Cole</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1wwvPjOOoD9vOL91CdvEC3JJi_F-Wj7Tn&export=download&authuser=1&confirm=t&uuid=b6bac21e-b764-4f4f-ba6c-826588d99bd3&at=AEz70l5Pv_Xzm86z3dr-CJ5OX-OS:1740025107498" download="NoRoleModelz.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+            
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/TheSearchjpg.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/TheSearch.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>The Search</td>
+                <td>NF</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1OoLK_gGJRTeQ1n0wVv5gKwYR3OkMwUeA&export=download&authuser=1&confirm=t&uuid=a6db1cce-0e96-4e3d-82ad-ea43eac2512b&at=AEz70l5mqwb0oFO4uUcTEdQJ2YZ5:1740025605969" download="TheSearch.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Wow.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Wow.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Wow</td>
+                <td>Post Malone</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1CZEL1-l1PAL25nFclWaps2COnxq3z7QF&export=download&authuser=1&confirm=t&uuid=d5aefe1c-6f9a-4471-9b6e-1f42b336e749&at=AEz70l6EbQTNIS41Tt5QTMnPmZx-:1740025915385" download=Wow.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+    </table>
+  </body>
+</html>

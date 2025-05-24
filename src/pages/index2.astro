@@ -1,0 +1,112 @@
+---
+// EDM.astro
+import 'styles/styles.css';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h4>Spotify</h4>
+    <nav class="button-container">
+      <a href="/" class="button">Indie</a>
+      <a href="/EDM" class="button2">EDM</a>
+      <a href="/Pop" class="button">Pop</a>
+      <a href="/Rap" class="button">Rap</a>
+    </nav>
+    <h3>EDM</h3>
+    <table class="music-table">
+      <tr style="text-align: center; color: #333333;">
+        <th>Cover</th>
+        <th>Play</th>
+        <th>Judul</th>
+        <th>Artis</th>
+        <th>Download</th>
+      </tr>
+      
+      <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Tremor.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Tremor.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Tremor</td>
+                <td>Martin Garrix</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1fdC1cwYIPPNAf4Pxdj7MH2pHEzdgVvUA&export=download&authuser=1&confirm=t&uuid=c151b5f7-60c8-4543-8b8a-dec09ff525f9&at=AEz70l5ixoDZcbbz1ybWF-tmNuDf:1740011502067" download="Tremor.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Booyah.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Booyah.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Booyah</td>
+                <td>Showtek</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1bH5n7hqkFvGV1N8i0AXek63g114DV9x1&export=download&authuser=1&confirm=t&uuid=f677ea03-6f8c-404c-8b00-236fca2a0ef3&at=AEz70l6wtO7ihUuuk346dPrnLZJ0:1740011734940" download="Booyah.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/tsunami.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Tsunami.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Tsunami</td>
+                <td>DVBBS</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1LD0i7uXxNPbH-cY-D5ic5mQzcOh9GLaj&export=download&authuser=1&confirm=t&uuid=11a91690-761c-4eb8-811a-0db09338c84c&at=AEz70l4_nUguyFJwC7RQT3jQjKbI:1740011935113" download="Tsunami.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Middle.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Middle.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Middle</td>
+                <td>DJ Snake</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=144WrObbjyuTWtByBt-LE-6NB0mXCPOFV&export=download&authuser=1&confirm=t&uuid=5020d12f-b9d9-4309-9dd2-3a9ead6d4ed0&at=AEz70l5zeDDHIKN6j0fTCupSEy73:1740012195951" download="Middle.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/LeanOn.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/LeanOn.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Lean On</td>
+                <td>Major Lazer</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=16bokwtcYPKBIxEeYyoJLC5Z9MJU27qLK&export=download&authuser=1&confirm=t&uuid=06351034-ff05-4305-9907-5567ec406918&at=AEz70l5AbYMRVfCMLhzh6L0Jmq5x:1740014242808" download="LeanOn.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+    </table>
+  </body>
+</html>

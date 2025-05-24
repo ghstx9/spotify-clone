@@ -1,0 +1,112 @@
+---
+// Pop.astro
+import 'styles/styles.css';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h4>Spotify</h4>
+    <nav class="button-container">
+      <a href="/" class="button">Indie</a>
+      <a href="/EDM" class="button">EDM</a>
+      <a href="/Pop" class="button2">Pop</a>
+      <a href="/Rap" class="button">Rap</a>
+    </nav>
+    <h3>Pop</h3>
+    <table class="music-table">
+      <tr style="text-align: center; color: #333333;">
+        <th>Cover</th>
+        <th>Play</th>
+        <th>Judul</th>
+        <th>Artis</th>
+        <th>Download</th>
+      </tr>
+      
+      <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/TooSweet.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/TooSweet.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Too Sweet</td>
+                <td>Hozier</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1tcbeU8CIK-TdG6xwmLdVvSSebF1hOw5k&export=download&authuser=1&confirm=t&uuid=daaea293-59d2-482a-9d81-e496e3c14e53&at=AEz70l6sukUmmmZ2bDn5b14AnIm4:1740022311799" download="TooSweet.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/WithoutMe.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/WithoutMe.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Without Me</td>
+                <td>Halsey</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1OphVKi5RDJRHu9QpoGwvFFRyhOOIMDDT&export=download&authuser=1&confirm=t&uuid=e1b9be82-944d-4e29-86f1-3d05efbc4392&at=AEz70l6nyqfUkTg8yFiuLoePGnkN:1740022536888" download="WithoutMe.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Shameless.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Shameless.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Shameless</td>
+                <td>Camilla Cabello</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1rfH914BkD2PA-XIZ7DEvElAoowGtjT_W&export=download&authuser=1&confirm=t&uuid=4920f040-0fe5-4fc6-90e0-6a507949d723&at=AEz70l5HVu0qyN7fRXWMdd5Yfg_3:1740022717420" download="Shameless.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+            
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Dummy.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Dummy.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Dummy</td>
+                <td>Portugal. The Man</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1hcGooMGGWNvnuLit_yp1LROtWusVC5iv&export=download&authuser=1&confirm=t&uuid=7b8960cf-4bc8-4f25-abf1-48f1defec2bc&at=AEz70l6G33BLWwZQ4S6rFafPPe1L:1740022898250" download="Dummy.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+
+            <tr style="text-align: center; background-color: #121212">
+                <td><img src="material/Daylight.jpg"></td>
+                <td class="audio-cell">
+                    <audio controls>
+                        <source src="material/Daylight.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>Daylight</td>
+                <td>David Kushner</td>
+                <td class="download-cell">
+                    <a href="https://drive.usercontent.google.com/download?id=1FuSkLaQpY6w_RCKdQ1-1YhFJG8DCkfNA&export=download&authuser=1&confirm=t&uuid=2b1b13cb-dfc3-49c8-9a78-821d68e004fb&at=AEz70l642jv2K7W8uvfZy61z3-fT:1740023073513" download="Daylight.mp3">
+                        <button style="background-color: #1DB954; color: #333333; border: none; padding: 10px 20px; cursor: pointer; border-radius: 10%;">Download</button>
+                    </a>
+                </td>
+            </tr>
+    </table>
+  </body>
+</html>

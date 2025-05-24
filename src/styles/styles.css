@@ -1,0 +1,77 @@
+body {   
+    font-family: Arial, sans-serif;
+    background-color: #191414;
+    color: #1DB954;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.music-table {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #1DB954;
+}
+
+td.audio-cell {
+    width: 150px;
+}
+
+td.download-cell {
+    width: 150px;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+audio {
+    filter: invert(1) sepia(1) hue-rotate(90deg) saturate(3);
+}
+
+.button {
+    background-color: black;
+    color: #1DB954;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.button2 {
+    background-color: #1DB954;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}  
+
+.button-container :hover {
+    background-color: #1DB954;
+    color: black;
+}
